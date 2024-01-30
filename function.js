@@ -16,6 +16,17 @@ const resu = multi(undefined, 5, 2);
 console.log(resu);
 //inline
 //anonymous lie nam diye inline function ho
+// Anonymous function assigned to a variable
+// //function add(a, b) {
+//     return a + b;
+// }
+//console.log(3,2);
+const multiply = function (a, b) {
+  return a * b;
+};
+
+// Example usage
+console.log(multiply(2, 3)); // Output: 6
 
 ///closure
 //returns hardcoded variable stored inside the function
